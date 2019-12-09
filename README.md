@@ -5,4 +5,4 @@ doing what he does best
 ### Subtitle
 Idek what im doing rn
 
-[github](https://www.github.org)
+[github](https://www.github.com)
