@@ -32,4 +32,4 @@ findThePrime(10000)
 
  print(isPrime(181))
 
-// I tried to get it to work. It kinda works but right when it gets to the end it gets an error when its about to find the number. Ayanna helped me on this project.
+// I tried to get it to work. It kinda works but right when it gets to the end it gets an error when its about to find the number. Ayanna helped me on this question.
