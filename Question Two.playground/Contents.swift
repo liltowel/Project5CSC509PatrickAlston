@@ -1,9 +1,11 @@
 // https://projecteuler.net/problem=7
 //By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13. What is the 10 001st prime number?
 
+var listOfPrimes: [Int] = [2, 3]
+
 func isPrime(_ num: Int) -> Bool {
     
-    for x in 2...((num/2)){
+    for x in listOfPrimes {
         if num % x == 0{
             return false
         }
@@ -12,10 +14,10 @@ func isPrime(_ num: Int) -> Bool {
 }
 
 
-func findThePrime(_ number: Int) -> Int{
+func findThePrime(_ number: Int){
     
     var currentValue: Int = 4
-    var listOfPrimes: [Int] = []
+    
     
     while listOfPrimes.count < number {
         if isPrime(currentValue){
@@ -24,12 +26,11 @@ func findThePrime(_ number: Int) -> Int{
 
         currentValue = currentValue + 1
     }
-            print(listOfPrimes[-1]) // -1 means the number before the first, which is the last number in an array
-    return 0;
+    print(listOfPrimes.last!) // -1 means the number before the first, which is the last number in an array
 }
 
-findThePrime(10000)
+findThePrime(10001)
 
- print(isPrime(181))
+// print(isPrime(181))
 
-// I tried to get it to work. It kinda works but right when it gets to the end it gets an error when its about to find the number. Ayanna helped me on this question.
+// Ayanna helped me on this question.
