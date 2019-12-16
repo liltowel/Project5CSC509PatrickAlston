@@ -10,5 +10,5 @@ func commentEnd(a:[Int]) -> [Int]{//created a function that took two parameters
     return returnArray
 }
 
-print(commentEnd(a:[1,2,3,4]))
-print(commentEnd(a:[2,4,6,4]))
+print(commentEnd(a:[1,2,3]))
+print(commentEnd(a:[2,4,6]))
