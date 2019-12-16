@@ -2,7 +2,7 @@
 Patrick Alston
 doing what he does best
 
-### Subtitle
-Idek what im doing rn
+### Purpose
+(Insert description: uses, function, and organization of repository here)
 
 [github](https://www.github.com)
